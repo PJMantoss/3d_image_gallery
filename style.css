@@ -31,3 +31,9 @@ body{
         transform: perspective(1000px) rotateY(360deg);
     }
 }
+
+.gallery span {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
