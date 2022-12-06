@@ -6,10 +6,17 @@
 }
 
 body{
-    background-image: linear-gradient(to right, #2c5364, #0f2027);
+    background: linear-gradient(to right, #2c5364, #0f2027);
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+}
+
+.gallery{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation: rotate 30s linear infinite;
 }
