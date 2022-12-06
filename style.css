@@ -40,6 +40,7 @@ body{
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
+    transform: rotateY('angle') translateZ();
 }
 
 .gallery span img{
